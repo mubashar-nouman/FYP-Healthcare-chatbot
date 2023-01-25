@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/chat.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   <title>Navbar</title>
 </head>
@@ -22,9 +25,9 @@
       <ul class="nav-list">
         <li><a href="/index.html">Home</a></li>
         <li><a href="#aboutID">About</a></li>
-        <li><a href="#">Chat</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#chatID">Chat</a></li>
+        <li><a href="#aidID">FirstAid</a></li>
+        <li><a href="#contactID">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -35,7 +38,8 @@
     <div class="header_container">
       <div class="left_part">
         <h1>AI HEALTHCARE CHATBOT</h1>
-        <p>AI Healthcare Chatbot is a web application that helps you to get the information about diseases and first aid tips</p>
+        <p>AI Healthcare Chatbot is a web application that helps you to get the information about diseases and first aid
+          tips</p>
         <a href="#" class="hero_btn">Read More</a>
       </div>
       <div class="right_part">
@@ -50,67 +54,158 @@
     <div class="about_main">
       <h3 class="heading"><span>About </span>Team</h3>
       <div class="about_container">
-          <div class="card">
-              <img src="./images/card-2.jpg">
-              <div class="details">
-                  <h3>Mubashar</h3>
-                  <p>Web Developer</p>
-                  <div class="social-links">
-                      <a href="#"><i class="uil uil-facebook-f"></i></a>
-                      <a href=""><i class="uil uil-instagram"></i></a>
-                      <a href=""><i class="uil uil-twitter-alt"></i></a>
-                      <a href=""><i class="uil uil-whatsapp"></i></a>
-                  </div>
-              </div>
+        <div class="card">
+          <img src="./images/card-2.jpg">
+          <div class="details">
+            <h3>Mubashar</h3>
+            <p>Web Developer</p>
+            <div class="social-links">
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href=""><i class="uil uil-instagram"></i></a>
+              <a href=""><i class="uil uil-twitter-alt"></i></a>
+              <a href=""><i class="uil uil-whatsapp"></i></a>
+            </div>
           </div>
-          <div class="card">
-              <img src="/images/card-1.jpg">
-              <div class="details">
-                  <h3>Umar</h3>
-                  <p>Backend Developer</p>
-                  <div class="social-links">
-                      <a href="#"><i class="uil uil-facebook-f"></i></a>
-                      <a href=""><i class="uil uil-instagram"></i></a>
-                      <a href=""><i class="uil uil-twitter-alt"></i></a>
-                      <a href=""><i class="uil uil-whatsapp"></i></a>
-                  </div>
-              </div>
+        </div>
+        <div class="card">
+          <img src="/images/card-1.jpg">
+          <div class="details">
+            <h3>Umar</h3>
+            <p>Backend Developer</p>
+            <div class="social-links">
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href=""><i class="uil uil-instagram"></i></a>
+              <a href=""><i class="uil uil-twitter-alt"></i></a>
+              <a href=""><i class="uil uil-whatsapp"></i></a>
+            </div>
           </div>
-          <div class="card">
-              <img src="/images/card-3.jpeg">
-              <div class="details">
-                  <h3>Suleman</h3>
-                  <p>Content Writer</p>
-                  <div class="social-links">
-                      <a href="#"><i class="uil uil-facebook-f"></i></a>
-                      <a href=""><i class="uil uil-instagram"></i></a>
-                      <a href=""><i class="uil uil-twitter-alt"></i></a>
-                      <a href=""><i class="uil uil-whatsapp"></i></a>
-                  </div>
-              </div>
+        </div>
+        <div class="card">
+          <img src="/images/card-3.jpeg">
+          <div class="details">
+            <h3>Suleman</h3>
+            <p>Content Writer</p>
+            <div class="social-links">
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href=""><i class="uil uil-instagram"></i></a>
+              <a href=""><i class="uil uil-twitter-alt"></i></a>
+              <a href=""><i class="uil uil-whatsapp"></i></a>
+            </div>
           </div>
-          <div class="card">
-              <img src="/images/card-4.jpeg">
-              <div class="details">
-                  <h3>Hassan</h3>
-                  <p>ML Developer</p>
-                  <div class="social-links">
-                      <a href="#"><i class="uil uil-facebook-f"></i></a>
-                      <a href=""><i class="uil uil-instagram"></i></a>
-                      <a href=""><i class="uil uil-twitter-alt"></i></a>
-                      <a href=""><i class="uil uil-whatsapp"></i></a>
-                  </div>
-              </div>
+        </div>
+        <div class="card">
+          <img src="/images/card-4.jpeg">
+          <div class="details">
+            <h3>Hassan</h3>
+            <p>ML Developer</p>
+            <div class="social-links">
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href=""><i class="uil uil-instagram"></i></a>
+              <a href=""><i class="uil uil-twitter-alt"></i></a>
+              <a href=""><i class="uil uil-whatsapp"></i></a>
+            </div>
           </div>
+        </div>
       </div>
-  </div>
+    </div>
   </section>
   <!-- ########## ABOUT SECTION ENDED ########### -->
 
   <!-- ########## CHAT SECTION STARTED ########### -->
-
+  <section class="chat_section" id="chatID">
+    <h3 class="heading"><span>Chat </span>Me</h3>
+    <div class="chat_container">
+      <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible active">Chat with us!
+          <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+        <div class="content">
+          <div class="full-chat-block">
+            <!-- Message Container -->
+            <div class="outer-container">
+              <div class="chat-container">
+                <!-- Messages -->
+                <div id="chatbox">
+                  <h5 id="chat-timestamp"></h5>
+                  <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                </div>
+                <!-- User input box -->
+                <div class="chat-bar-input-block">
+                  <div id="userInput">
+                    <input id="textInput" class="input-box" type="text" name="msg"
+                      placeholder="Tap 'Enter' to send a message">
+                    <p></p>
+                  </div>
+                  <div class="chat-bar-icons">
+                    <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart" onclick="heartButton()"></i>
+                    <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send" onclick="sendButton()"></i>
+                  </div>
+                </div>
+                <div id="chat-bar-bottom">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- ########## CHAT SECTION ENDED ########### -->
 
+
+  <!-- ########## CONTACT SECTION STARTED ########### -->
+
+  <section id="contactID">
+    <div class="contain">
+      <div class="wrapper">
+        <div class="form">
+          <h4>GET IN TOUCH</h4>
+          <h2 class="form-headline">Send us a message</h2>
+          <form id="submit-form" action="">
+            <p>
+              <input id="name" class="form-input" type="text" placeholder="Your Name*">
+              <small class="name-error"></small>
+            </p>
+            <p>
+              <input id="email" class="form-input" type="email" placeholder="Your Email*">
+              <small class="name-error"></small>
+            </p>
+            <p class="full-width">
+              <input id="company-name" class="form-input" type="text" placeholder="Subject*" required>
+              <small></small>
+            </p>
+            <p class="full-width">
+              <textarea minlength="20" id="message" cols="70" rows="7" placeholder="Your Message*" required></textarea>
+              <small></small>
+            </p>
+            <p class="full-width">
+              <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+              <button class="reset-btn" onclick="reset()">Reset</button>
+            </p>
+          </form>
+        </div>
+        <div class="contacts contact-wrapper">
+          <ul>
+            <li>Need help? Our chatbot is here for you. If you are feeling any issue while using, you can contact us here.</li>
+            <span class="hightlight-contact-info">
+              <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> info@mubitech.com</li>
+              <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+92 308 7031050</span></li>
+            </span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ########## CONTACT SECTION ENDED ########### -->
+
+  <!-- ########## FOOTER SECTION STARTED ########### -->
+  <footer>
+    <div class="footer">
+      <p>©️ 2023 All Rights Reserved | Made with ❤️ by Mubashar, Umar & Hassan</p>
+    </div>
+  </footer>
 
 
 
@@ -126,7 +221,10 @@
 
 
   <script src="/scripts/navbar.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/scripts/responses.js"></script>
+  <script src="/scripts/chat.js"></script>
+  <script src="/scripts/contact.js"></script>
 </body>
 
 </html>
