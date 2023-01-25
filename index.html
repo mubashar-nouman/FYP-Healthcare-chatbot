@@ -5,11 +5,13 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Poppins:wght@100&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/chat.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-  <title>Navbar</title>
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+  <title>AI Healthcare Chatbot</title>
 </head>
 
 <body>
@@ -60,8 +62,8 @@
             <h3>Mubashar</h3>
             <p>Web Developer</p>
             <div class="social-links">
-              <a href="#"><i class="uil uil-facebook-f"></i></a>
-              <a href=""><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-linkedin"></i></a>
+              <a href=""><i class="uil uil-github"></i></a>
               <a href=""><i class="uil uil-twitter-alt"></i></a>
               <a href=""><i class="uil uil-whatsapp"></i></a>
             </div>
@@ -73,8 +75,8 @@
             <h3>Umar</h3>
             <p>Backend Developer</p>
             <div class="social-links">
-              <a href="#"><i class="uil uil-facebook-f"></i></a>
-              <a href=""><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-linkedin"></i></a>
+              <a href=""><i class="uil uil-github"></i></a>
               <a href=""><i class="uil uil-twitter-alt"></i></a>
               <a href=""><i class="uil uil-whatsapp"></i></a>
             </div>
@@ -86,8 +88,8 @@
             <h3>Suleman</h3>
             <p>Content Writer</p>
             <div class="social-links">
-              <a href="#"><i class="uil uil-facebook-f"></i></a>
-              <a href=""><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-linkedin"></i></a>
+              <a href=""><i class="uil uil-github"></i></a>
               <a href=""><i class="uil uil-twitter-alt"></i></a>
               <a href=""><i class="uil uil-whatsapp"></i></a>
             </div>
@@ -99,8 +101,8 @@
             <h3>Hassan</h3>
             <p>ML Developer</p>
             <div class="social-links">
-              <a href="#"><i class="uil uil-facebook-f"></i></a>
-              <a href=""><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-linkedin"></i></a>
+              <a href=""><i class="uil uil-github"></i></a>
               <a href=""><i class="uil uil-twitter-alt"></i></a>
               <a href=""><i class="uil uil-whatsapp"></i></a>
             </div>
@@ -162,21 +164,23 @@
         <div class="form">
           <h4>GET IN TOUCH</h4>
           <h2 class="form-headline">Send us a message</h2>
-          <form id="submit-form" action="">
+          <form id="submit-form"
+          action="https://formspree.io/f/xyyakyya"
+          method="POST">
             <p>
-              <input id="name" class="form-input" type="text" placeholder="Your Name*">
+              <input id="name" class="form-input" type="text" name="name" placeholder="Your Name*">
               <small class="name-error"></small>
             </p>
             <p>
-              <input id="email" class="form-input" type="email" placeholder="Your Email*">
+              <input id="email" class="form-input" type="email" name="email" placeholder="Your Email*">
               <small class="name-error"></small>
             </p>
             <p class="full-width">
-              <input id="company-name" class="form-input" type="text" placeholder="Subject*" required>
+              <input id="company-name" class="form-input" type="text" name="subject" placeholder="Subject*" required>
               <small></small>
             </p>
             <p class="full-width">
-              <textarea minlength="20" id="message" cols="70" rows="7" placeholder="Your Message*" required></textarea>
+              <textarea minlength="20" id="message" cols="70" rows="7" name="message" placeholder="Your Message*" required></textarea>
               <small></small>
             </p>
             <p class="full-width">

@@ -137,14 +137,14 @@ html {
   padding: 0.5rem 2rem 0.5rem 4rem;
 }
 .left_part h1{
-  font-size: 4rem;
+  font-size: 6rem;
   color: #085fbd;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Iceland', cursive; 
   line-height: 5rem;
   width: 100%;
 }
 .left_part p{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #555;
   width: 100%;
   font-family: 'Roboto Condensed', sans-serif;
@@ -155,13 +155,13 @@ html {
 .hero_btn{
   width: 140px;
   text-decoration: none;
-  color: #000;
+  color: rgb(41, 41, 41);
   text-align: center;
   padding: 0.7rem 0.7rem;
   border: 1px solid #555;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
 }
 .hero_btn:hover{
@@ -388,25 +388,15 @@ html {
 }
 /* ################################# Chat Section Ended ################################### */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ################################# Contact Section Started ################################### */
 .contain {
-  background-color: #eee;
+  background-color: #f5f5f5;
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px -4px 24px 0px;
+  border: 1px solid #444;
 }
 
 div.form {
@@ -428,11 +418,11 @@ div.form {
   width: 10%;
   padding-top: 10px;
   margin-bottom: 20px;
-  border-bottom: 3px solid #ec1c24;
+  border-bottom: 3px solid #085fbd;
 }
 
 .highlight-text {
-  color: #ec1c24;
+  color: #085fbd;
 }
 
 .hightlight-contact-info {
@@ -530,15 +520,15 @@ textarea {
 
 .contain button, .submit-btn {
   background: transparent;
-  border: 1px solid #ec1c24;
-  color: #ec1c24;
+  border: 1px solid #085fbd;
+  color: #085fbd;
   border-radius: 15px;
   padding: 5px 20px;
   text-transform: uppercase;
 }
 .contain button:hover, .submit-btn:hover,
 .contain button:focus , .submit-btn:focus{
-  background: #ec1c24;
+  background: #085fbd;
   outline: 0;
   color: #eee;
 }
